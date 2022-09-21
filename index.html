@@ -1,55 +1,203 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>portfólio</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portfólio Lucas</title>
+  </head>
+  <body>
+
     <div class="container">
+
         <div class="hamburguer">
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-            <span>Fechar</span>
-        </div>
-        
-        <header>
-            <div class="img-wrapper">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
 
-                <img src="img/bg.jpg" alt="">
-            </div>
-            <div class="banner">
+        <header id="home">
+          <div class="img-wrapper">
+            <img src="img/dev.jpg" alt="" />
+          </div>
+          <div class="banner">
+            <h1>Web Developer & Front End Designer</h1>
+            <p>Lucas Cabral</p>
+            <button>Saiba Mais</button>
+          </div>
+        </header>
 
-                <h1>Web Developer & Front End Designer</h1>
-                <p>Lucas Cabral</p>
-                <button>Saiba Mais</button>
-            </div>
-         </header>
-    <div class="sidebar">
-        <nav>
+        <aside class="sidebar">
+          <nav>
             <ul class="menu">
-                <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+              <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+
             </ul>
-        </nav>
-        <div class="social-media">
+          </nav>
+          <div class="social-media">
             <a href="#"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fab fa-linkedin"></i></a>
             <a href="#"><i class="fab fa-whatsapp"></i></a>
-        </div>
-    
+          </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+          <div class="sessao-header">
+            <h1>Conhecimentos</h1>
+          </div>
+          <div class="conhecimentos">
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Conhecimento intermediário</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Conhecimento intermediário, Transições e transformações, Grid, Flexbox, herança, Design responsivo media query.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Conhecimento Básico, lógica e algoritmos, orientação a Objetos, herança a Objetos, estrutura de Dados, condicionais e controle de fluxo, DOM. </p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fa-solid fa-database"></i>
+                <h3>Sqlite</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas facere alias, reprehenderit ullam quibusdam itaque dolor nulla odio inventore culpa molestiae porro ea ad illo, quos dicta ratione quisquam?
+                </p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fa-brands fa-node"></i>
+                <h3>NodeJs</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Conhecimento Básico, APIs REST, express.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fa-brands fa-react"></i>
+                <h3>ReactJs</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis distinctio quaerat eaque ratione, molestias incidunt a iusto, unde quos magnam ullam exercitationem velit alias, fuga in explicabo ex laborum!</p>
+              </div>
+            </div>
+            <div class="conhecimentos-img-wrapper">
+              <img src="img/devs.png"imagem conhecimento">
+            </div>
+          </div>
+        </section>
+
+        <div class="sessao-projetos" id="projetos">
+          <div class="sessao-header">
+            <h1>Projetos</h1>
+          </div>
+          <div class="projetos">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="img/dev.jpg" alt="imagem do projeto ToDo" />
+              </div>
+              <div class="card-info">
+                <h2>Controle de Estacionamento</h2>
+                <h3>API, Javascript, SQlite</h3>
+                <p>Sistema de controle de estacionamento, Hora e data de entrada e saida, Registro de placa, Modelo, Cor</p>
+                <button class="btn">Repositório</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="img/dev.jpg" alt="imagem do projeto Maratona" />
+              </div>
+              <div class="card-info">
+                <h2>Bank</h2>
+                <h3>JavaScript</h3>
+                <p>Controle de contas orientada a objetos E Sistema de autentificação de login</p>
+                <button class="btn">Repositório</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="img/dev.jpg" alt="imagem do projeto Casa Bela" />
+              </div>
+              <div class="card-info">
+                <h2>Em Breve</h2>
+                <h3></h3>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Contato</h1>
+              <form>
+                <div class="input-group">
+                  <input type="text" class="field" id="nome">
+                  <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="field" id="email">
+                  <label for="email" class="field-label">E-mail</label>
+                </div>
+                <div class="input-group">
+                  <textarea class="field" id="mensagem"></textarea>
+                  <label for="mensagem" class="field-label">Mensagem</label>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-content">
+            <p>
+              Copyright &copy; 2022,  Todos os diretos reservados
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
-        </div>
-    </body>
-    
-    <script src="script.js"></script>
-    
-    </html>
+   </body>
+
+   <script src="script.js"></script>
+</html>
