@@ -43,9 +43,9 @@
             </ul>
           </nav>
           <div class="social-media">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/LucasKbral" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lucas-cabral-546bb2149/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://wa.me/5511988678597" target="_blank"><i class="fab fa-whatsapp"></i></a>
           </div>
         </aside>
 
@@ -161,21 +161,37 @@
             <div class="contato-left"></div>
             <div class="contato-right">
               <h1>Contato</h1>
-              <form>
-                <div class="input-group">
+              
+              <form id="form" class="form" action="https://api.staticforms.xyz/submit" method="post">
+              
+                <input type="hidden" name="accessKey" value="d3cb2193-15f2-4107-a497-a714f0d8fc7d">
+
+                <input type="hidden" name="redirectTo" value="https://http://127.0.0.1:5500/index.html">
+             
+                <div class="form-Control">
+                <label for="username">Nome</label> 
                   <input type="text" class="field" id="nome">
                   <label for="nome" class="field-label">Nome</label>
+                  <small></small>
                 </div>
-                <div class="input-group">
+                
+                <div class="form-control">
+                <label for="email">Email</label>
                   <input type="text" class="field" id="email">
                   <label for="email" class="field-label">E-mail</label>
+                  <small></small>
                 </div>
-                <div class="input-group">
+                
+                <div class="form-control">
+                  <label for="Mensagem">Mensagem</label>
                   <textarea class="field" id="mensagem"></textarea>
                   <label for="mensagem" class="field-label">Mensagem</label>
+                  <small></small>
                 </div>
                 <button type="submit" class="btn btn-submit">Enviar</button>
+
               </form>
+            
             </div>
           </div>
         </section>
@@ -187,7 +203,7 @@
             </p>
             <div class="social-list">
               <ul>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.instagram.com/_lucaskbral/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 
               </ul>
             </div>
@@ -198,6 +214,6 @@
         </a>
     </div>
    </body>
-
    <script src="script.js"></script>
+
 </html>

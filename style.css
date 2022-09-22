@@ -341,7 +341,9 @@ opacity: 1;
     flex-wrap:wrap;
   }
   
-
+.sessao-projetos {
+  background-color: #f5f5f5;
+}
 
   .card {
     width: 18rem;
@@ -470,7 +472,7 @@ opacity: 1;
     align-items: center;
   }
   
-  .input-group {
+  .formControl {
     position: relative;
   }
 
@@ -487,7 +489,7 @@ opacity: 1;
     margin: 1rem 0;
   }
   
-  .input-group textarea {
+  .formControl textarea {
     padding-top: 1rem;
     max-width: 25rem;
     max-height: 3rem;
@@ -576,3 +578,26 @@ opacity: 1;
     box-shadow:  0 0.1rem 0.6rem #00000009;
   }
 
+  /* Error and Success */
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control.success  {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error  {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
