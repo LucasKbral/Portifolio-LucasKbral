@@ -300,7 +300,7 @@ opacity: 1;
   }
   
   .conhecimento-header i {
-    font-size: 2.5rem;
+    font-size: 6.5rem;
   }
   
   .conhecimento-header h3 {
@@ -604,55 +604,11 @@ opacity: 1;
 
 .apresentacao {
   display: inline-flex;
-}
-
-.apresentacao .estatico {
-  color: #fff;
-  font-size: 60px;
-  font-weight: 400;
-
-}
-
-.apresentacao .dinamico {
-  margin-left: 15px;
-  line-height: 90px;
-  height: 90px;
-  overflow: hidden;
-}
-
-.dinamico li {
-  color: #00F260;
-  list-style: none;
-  font-size: 60px;
-  font-weight: 500;
-  animation: slide 6s steps(4) infinite;
-  position: relative;
-  top: 0;
-}
-@keyframes slide{
-  100%{
-    top: -360px;
-  }
-}
-
-
-.dinamico li span::after {
-  content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  border-left: 2px solid #00F260;
-  animation: typing 1.5 steps(10) infinite;
+  width: 176px;
+  height: 32px;
+  left: 736px;
+  top: 396px;
+
 }
 
-.dinamico li span {
-  position: relative;
-}
-
-@keyframes typing{
-  100%{
-    left: 100%;
-    margin: 0 -35px 0 35px;
-  }
-}

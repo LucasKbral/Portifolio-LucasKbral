@@ -50,6 +50,7 @@ if (mensagemValue === "") {
 
   if (formIsValid) {
     console.log("O formulário está 100% válido!");
+    alert("Mensagem enviada!")
   }
 
 }
